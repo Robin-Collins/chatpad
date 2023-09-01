@@ -53,6 +53,10 @@
     ],
     "writingCharacters": [
       {
+        "label": "Renowned Author",
+        "value": "A famous and accomplished fiction author who entertains and captivates his audiences by telling dark, eloquently written and horrifying stories."
+      },
+      {
         "label": "Standup Comedian",
         "value": "A performer who entertains audiences by telling jokes and humorous stories."
       },
@@ -160,6 +164,7 @@
       "Confident",
       "Condescending",
       "Conversational",
+      "Dominant",
       "Diplomatic",
       "Direct",
       "Eloquent",
