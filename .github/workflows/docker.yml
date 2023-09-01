@@ -36,4 +36,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: ghcr.io/${{ vars.LOWERCASE_REPOSITORY_OWNER }}:${{ github.sha }}, ghcr.io/${{ vars.LOWERCASE_REPOSITORY_OWNER }}:latest
+          tags: ghcr.io/${{ github.repository }}:${{ github.sha }}, ghcr.io/${{ github.repository }}:latest
