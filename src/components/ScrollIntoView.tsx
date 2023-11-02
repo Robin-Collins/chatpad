@@ -5,7 +5,7 @@ export function ScrollIntoView({ children }: { children: ReactNode }) {
     <div
       ref={(node) => {
         if (!node) return;
-        node.scrollIntoView({ behavior: "smooth" });
+        node.scrollIntoView({ behavior: "instant" });
       }}
     >
       {children}
